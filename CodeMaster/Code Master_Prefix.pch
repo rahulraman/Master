@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'HTML Studio' target in the 'HTML Studio' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "EdhitaGlobal.h"
+#endif

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchLight" translatesAutoresizingMaskIntoConstraints="NO" id="klG-Rk-hG8">
+                    <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="klG-Rk-hG8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="O9I-CY-akL"/>
+                <constraint firstItem="klG-Rk-hG8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Rxb-Lu-3Wd"/>
+                <constraint firstAttribute="trailing" secondItem="klG-Rk-hG8" secondAttribute="trailing" id="ljL-nn-1h1"/>
+                <constraint firstAttribute="bottom" secondItem="klG-Rk-hG8" secondAttribute="bottom" id="zoJ-Z4-8H1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LaunchLight" width="200" height="200"/>
+    </resources>
+</document>
